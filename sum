@@ -1,6 +1,10 @@
-sum=0
-for arg in $1 $2 $3
+#!/bin.bash
+# This is a great script
+
+sum = 0
+# This is my comment
+for arg in $@
 do
-    sum=$((arg + sum)) 
+     sum=$((arg + sum))
 done
-echo $sum
+echo sum
